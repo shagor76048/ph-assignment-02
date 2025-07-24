@@ -21,7 +21,19 @@
 .nav-color3{
     color: #000000;
 }
+.btn-primary{
 
+    background-color: #E95A08;
+    color: white;
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding: 10px 95px;
+
+}
 .title{
     size: 3rem;
 }
@@ -32,11 +44,9 @@
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.5);
 }
-.cart-heading-color{
-    color: #111111;
-}
 
-.footer-items-color{
+
+.footer-color{
    color: rgba(107, 114, 128, 1);
 }
 
@@ -72,6 +82,7 @@
 }
 .nav-head-container{
     max-width: 570px;
+     
 }
 .nav-heading{
     font-size: 4rem;
@@ -80,20 +91,70 @@
     width: 100%;
     max-width: 576px;
     height: auto;
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06); */
+ 
 }
 
+/* our plants section related styles */
+
+.our-plants{
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 30px;
+    gap: 10px;
+}
+.cart{
+    width: 270px;
+    height: 484.94px;
+}
+
+.cart-image{
+    width: 270px;
+    height: 322.94px;
+}
+.cart-title{
+    font-size: 1.2rem;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 500;
+}
+.cart-number{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cart-box{
+
+}
 
 
 
 /* mobile responsive styles */
 
 @media screen and (max-width:576px) {
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        font-size: .8rem;
+    }
+    .logo{
+        max-width: 50px;
+    }
     .nav-links{
         display: none;
     }
     .nav-welcome{
     flex-direction: column-reverse;
+    margin: 0 auto;
     }
+    
     .nav-heading{
     font-size: 1.5rem;
     }
@@ -102,12 +163,41 @@
     }
     
     .sub-title{
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+    
     }
 
+    .cart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 30px;
+    /* gap: 0px; */
+    
+    
+    }
+    .cart{
+    width: 170px;
+    height: 350px;
+    }
 
-
+    .cart-image{
+    width: 170px;
+    height: 196.94px;
+    }
+    .cart-title{
+    font-size: 1rem;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 500;
+    }
+    .cart-number{
+    font-size: 1rem;
+    font-weight: 600;
+    }
+    .btn-primary{
+        padding: 10px 50px;
+    }
+    
+    
 
 
 
