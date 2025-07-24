@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* shared style */
+.nav-color1{
+    color: #252432;
+}
+.nav-color2{
+    color: #8987A1;
+}
+.nav-color3{
+    color: #000000;
+}
+
+.heading-color{
+    color: #E95A08;
+}
+.sub-heading-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.cart-heading-color{
+    color: #111111;
+}
+
+.footer-items-color{
+   color: rgba(107, 114, 128, 1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* nav related styles */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.nav-items{
+    gap: 45px;
+   
+}
+.nav-links{
+    gap: 45px;
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    
+}
+.items{
+  
+}
+
