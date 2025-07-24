@@ -22,10 +22,14 @@
     color: #000000;
 }
 
-.heading-color{
+.title{
+    size: 3rem;
+}
+.title-color{
     color: #E95A08;
 }
-.sub-heading-color{
+.sub-title{
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.5);
 }
 .cart-heading-color{
@@ -55,12 +59,67 @@
 .nav-links{
     gap: 45px;
     list-style: none;
+    
 }
 .links{
     text-decoration: none;
     
 }
-.items{
-  
+.nav-welcome{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.nav-head-container{
+    max-width: 570px;
+}
+.nav-heading{
+    font-size: 4rem;
+}
+.nav-image{
+    width: 100%;
+    max-width: 576px;
+    height: auto;
 }
 
+
+
+
+/* mobile responsive styles */
+
+@media screen and (max-width:576px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-welcome{
+    flex-direction: column-reverse;
+    }
+    .nav-heading{
+    font-size: 1.5rem;
+    }
+    .title{
+    size: 1.5rem;
+    }
+    
+    .sub-title{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
