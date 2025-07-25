@@ -99,6 +99,7 @@
 
 .our-plants{
     max-width: 1140px;
+
     align-items: center;
     margin: 0 auto;
     text-align: center;
@@ -134,6 +135,22 @@
 
 }
 
+
+.plants-lover{
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.plants-lover-info{
+    gap: 20px;
+}
+
+.badge-image{
+    width: 286px;
+    height: 286px;
+    
+}
 
 
 /* mobile responsive styles */
@@ -171,17 +188,20 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding-top: 30px;
-    /* gap: 0px; */
+    gap: 10px;
+    /* margin-left: 10px; */
+    
+    
     
     
     }
     .cart{
-    width: 170px;
+    width: 171px;
     height: 350px;
     }
 
     .cart-image{
-    width: 170px;
+    width: 171px;
     height: 196.94px;
     }
     .cart-title{
